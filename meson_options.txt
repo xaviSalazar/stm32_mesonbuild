@@ -1,0 +1,12 @@
+option('stm32_cube_dir', type : 'string')
+option('stm32_chip', type : 'string')
+option('stm32_hal_components', type : 'array')
+option('stm32_flash_origin', type : 'string')
+option('stm32_ram_origin', type : 'string')
+option('stm32_flash_size', type : 'string')
+option('stm32_ram_size', type : 'string')
+option('stm32_min_stack_size', type : 'string')
+option('stm32_min_heap_size', type : 'string')
+option('stm32_ccram_origin', type : 'string')
+option('stm32_ccram_size', type : 'string')
+

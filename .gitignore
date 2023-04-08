@@ -1,1 +1,5 @@
 build/
+.cproject
+.mxproject
+.project
+.settings/
