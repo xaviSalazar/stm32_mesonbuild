@@ -1,3 +1,0 @@
-option('stm32_cube_dir', type : 'string')
-option('stm32_chip', type : 'string')
-option('stm32_hal_components', type : 'array')
