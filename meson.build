@@ -19,7 +19,7 @@ stm32_hal_components = ['cortex','usb', 'adc', 'dma', 'eth', 'exti', 'flash', 'g
 stm32_chip_family = 'STM32H5'
 stm32_chip_series = 'STM32H563'
 stm32_chip_type = 'xx'
-stm32_cube_dir = 'STM32CubeH5-main'
+stm32_cube_dir = 'STM32CubeH5'
 #===============================================
 ### end of editable parameters
  
