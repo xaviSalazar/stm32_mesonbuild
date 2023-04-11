@@ -2,8 +2,7 @@
 
 ### Project inspired from @jhamberg repository name: stm32-meson
 
-1. I modified certain lines to accept new features libraries that 
-   are generated from CubeIDE. (ext and ll located in drivers).
+1. I modified many lines and arborescense to adopt one meson.build file.
 
 2. Meson is a requirement to compile this example project.
 
@@ -11,7 +10,7 @@
    for the board in this case STM32H563ZI.
 
 ```
-meson build --cross-file stm32-meson/stm32h5.build -Dstm32_chip=STM32H563ZI -Dstm32_cube_dir=$HOME/STM32CubeH5-main
+meson build --cross-file stm32h5_board.ini
 ```
 
 then go to build/
